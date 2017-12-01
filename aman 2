@@ -1,0 +1,21 @@
+    #include<stdio.h>
+    int main()
+    {
+    	int t,i,rim,n,j;
+    	scanf("%d",&t);
+    	for(i=1;i<=t;i++)
+    	{
+    		j=0;
+    		scanf("%d",&n);
+    		while(n>=1)
+    		{
+    			rim=n%10;
+    			if(rim==4)
+    			{
+    			j++;	
+    			}
+    			n=n/10;
+    		}
+    		printf("%d\n",j);
+    	}
+    } 
